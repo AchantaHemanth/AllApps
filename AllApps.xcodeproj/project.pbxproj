@@ -8,20 +8,70 @@
 
 /* Begin PBXBuildFile section */
 		AABEED4321D7B01000C99A86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABEED4221D7B01000C99A86 /* AppDelegate.swift */; };
-		AABEED4521D7B01000C99A86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABEED4421D7B01000C99A86 /* ViewController.swift */; };
 		AABEED4821D7B01000C99A86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AABEED4621D7B01000C99A86 /* Main.storyboard */; };
 		AABEED4A21D7B01100C99A86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AABEED4921D7B01100C99A86 /* Assets.xcassets */; };
 		AABEED4D21D7B01100C99A86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AABEED4B21D7B01100C99A86 /* LaunchScreen.storyboard */; };
+		AABEED5521D7B0B900C99A86 /* CalculatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABEED5421D7B0B900C99A86 /* CalculatorVC.swift */; };
+		AABEED5721D7B47600C99A86 /* MusicVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABEED5621D7B47600C99A86 /* MusicVC.swift */; };
+		AABEED5E21D7B4FC00C99A86 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = AABEED5821D7B4FA00C99A86 /* pause.png */; };
+		AABEED5F21D7B4FC00C99A86 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = AABEED5921D7B4FA00C99A86 /* play.png */; };
+		AABEED6021D7B4FC00C99A86 /* Aravindha-Sametha-2018-CD-Cover-Front-Poster-Wallpapers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AABEED5A21D7B4FB00C99A86 /* Aravindha-Sametha-2018-CD-Cover-Front-Poster-Wallpapers.jpg */; };
+		AABEED6121D7B4FC00C99A86 /* previous.png in Resources */ = {isa = PBXBuildFile; fileRef = AABEED5B21D7B4FB00C99A86 /* previous.png */; };
+		AABEED6221D7B4FC00C99A86 /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = AABEED5C21D7B4FB00C99A86 /* stop.png */; };
+		AABEED6321D7B4FC00C99A86 /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = AABEED5D21D7B4FC00C99A86 /* next.png */; };
+		AABEED6521D7B50900C99A86 /* Yeda Poyinado.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AABEED6421D7B50900C99A86 /* Yeda Poyinado.mp3 */; };
+		AABEED6721D7B5BA00C99A86 /* TicTacVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABEED6621D7B5BA00C99A86 /* TicTacVC.swift */; };
+		AABEED6C21D7B62800C99A86 /* nought1.png in Resources */ = {isa = PBXBuildFile; fileRef = AABEED6821D7B62700C99A86 /* nought1.png */; };
+		AABEED6D21D7B62800C99A86 /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = AABEED6921D7B62700C99A86 /* nought.png */; };
+		AABEED6E21D7B62800C99A86 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = AABEED6A21D7B62700C99A86 /* cross.png */; };
+		AABEED6F21D7B62800C99A86 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = AABEED6B21D7B62800C99A86 /* board.png */; };
+		AABEED7121D7B67F00C99A86 /* ApiCommunication.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABEED7021D7B67F00C99A86 /* ApiCommunication.swift */; };
+		AABEED7321D7B6B200C99A86 /* CurrencyConvertor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABEED7221D7B6B200C99A86 /* CurrencyConvertor.swift */; };
+		AABEED7521D7B7A600C99A86 /* WeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABEED7421D7B7A600C99A86 /* WeatherVC.swift */; };
+		AABEED7921D7B7E300C99A86 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABEED7621D7B7E200C99A86 /* CustomTableViewCell.swift */; };
+		AABEED7A21D7B7E300C99A86 /* HourlyForcastVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABEED7721D7B7E300C99A86 /* HourlyForcastVC.swift */; };
+		AABEED7B21D7B7E300C99A86 /* Parameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABEED7821D7B7E300C99A86 /* Parameters.swift */; };
+		AABEED7D21D7B9BA00C99A86 /* bg_weather.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AABEED7C21D7B9BA00C99A86 /* bg_weather.jpg */; };
+		AABEED8321D7C06F00C99A86 /* Reddamma Thalli.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AABEED7E21D7C06D00C99A86 /* Reddamma Thalli.mp3 */; };
+		AABEED8421D7C06F00C99A86 /* Anaganaganaga.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AABEED7F21D7C06E00C99A86 /* Anaganaganaga.mp3 */; };
+		AABEED8521D7C06F00C99A86 /* Reddy Ikkada Soodu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AABEED8021D7C06E00C99A86 /* Reddy Ikkada Soodu.mp3 */; };
+		AABEED8621D7C06F00C99A86 /* Reddamma Thalli (Female).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AABEED8121D7C06E00C99A86 /* Reddamma Thalli (Female).mp3 */; };
+		AABEED8721D7C06F00C99A86 /* Peniviti.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AABEED8221D7C06F00C99A86 /* Peniviti.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AABEED3F21D7B01000C99A86 /* AllApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AABEED4221D7B01000C99A86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AABEED4421D7B01000C99A86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AABEED4721D7B01000C99A86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AABEED4921D7B01100C99A86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AABEED4C21D7B01100C99A86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AABEED4E21D7B01100C99A86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AABEED5421D7B0B900C99A86 /* CalculatorVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorVC.swift; sourceTree = "<group>"; };
+		AABEED5621D7B47600C99A86 /* MusicVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicVC.swift; sourceTree = "<group>"; };
+		AABEED5821D7B4FA00C99A86 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		AABEED5921D7B4FA00C99A86 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		AABEED5A21D7B4FB00C99A86 /* Aravindha-Sametha-2018-CD-Cover-Front-Poster-Wallpapers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Aravindha-Sametha-2018-CD-Cover-Front-Poster-Wallpapers.jpg"; sourceTree = "<group>"; };
+		AABEED5B21D7B4FB00C99A86 /* previous.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = previous.png; sourceTree = "<group>"; };
+		AABEED5C21D7B4FB00C99A86 /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
+		AABEED5D21D7B4FC00C99A86 /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
+		AABEED6421D7B50900C99A86 /* Yeda Poyinado.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Yeda Poyinado.mp3"; sourceTree = "<group>"; };
+		AABEED6621D7B5BA00C99A86 /* TicTacVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicTacVC.swift; sourceTree = "<group>"; };
+		AABEED6821D7B62700C99A86 /* nought1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nought1.png; sourceTree = "<group>"; };
+		AABEED6921D7B62700C99A86 /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nought.png; sourceTree = "<group>"; };
+		AABEED6A21D7B62700C99A86 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		AABEED6B21D7B62800C99A86 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		AABEED7021D7B67F00C99A86 /* ApiCommunication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiCommunication.swift; sourceTree = "<group>"; };
+		AABEED7221D7B6B200C99A86 /* CurrencyConvertor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyConvertor.swift; sourceTree = "<group>"; };
+		AABEED7421D7B7A600C99A86 /* WeatherVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherVC.swift; sourceTree = "<group>"; };
+		AABEED7621D7B7E200C99A86 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		AABEED7721D7B7E300C99A86 /* HourlyForcastVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HourlyForcastVC.swift; sourceTree = "<group>"; };
+		AABEED7821D7B7E300C99A86 /* Parameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parameters.swift; sourceTree = "<group>"; };
+		AABEED7C21D7B9BA00C99A86 /* bg_weather.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg_weather.jpg; sourceTree = "<group>"; };
+		AABEED7E21D7C06D00C99A86 /* Reddamma Thalli.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Reddamma Thalli.mp3"; sourceTree = "<group>"; };
+		AABEED7F21D7C06E00C99A86 /* Anaganaganaga.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Anaganaganaga.mp3; sourceTree = "<group>"; };
+		AABEED8021D7C06E00C99A86 /* Reddy Ikkada Soodu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Reddy Ikkada Soodu.mp3"; sourceTree = "<group>"; };
+		AABEED8121D7C06E00C99A86 /* Reddamma Thalli (Female).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Reddamma Thalli (Female).mp3"; sourceTree = "<group>"; };
+		AABEED8221D7C06F00C99A86 /* Peniviti.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Peniviti.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +105,33 @@
 			isa = PBXGroup;
 			children = (
 				AABEED4221D7B01000C99A86 /* AppDelegate.swift */,
-				AABEED4421D7B01000C99A86 /* ViewController.swift */,
+				AABEED7021D7B67F00C99A86 /* ApiCommunication.swift */,
+				AABEED5421D7B0B900C99A86 /* CalculatorVC.swift */,
+				AABEED5621D7B47600C99A86 /* MusicVC.swift */,
+				AABEED6621D7B5BA00C99A86 /* TicTacVC.swift */,
+				AABEED7221D7B6B200C99A86 /* CurrencyConvertor.swift */,
+				AABEED7421D7B7A600C99A86 /* WeatherVC.swift */,
+				AABEED7621D7B7E200C99A86 /* CustomTableViewCell.swift */,
+				AABEED7721D7B7E300C99A86 /* HourlyForcastVC.swift */,
+				AABEED7821D7B7E300C99A86 /* Parameters.swift */,
 				AABEED4621D7B01000C99A86 /* Main.storyboard */,
+				AABEED6421D7B50900C99A86 /* Yeda Poyinado.mp3 */,
+				AABEED7F21D7C06E00C99A86 /* Anaganaganaga.mp3 */,
+				AABEED8221D7C06F00C99A86 /* Peniviti.mp3 */,
+				AABEED8121D7C06E00C99A86 /* Reddamma Thalli (Female).mp3 */,
+				AABEED7E21D7C06D00C99A86 /* Reddamma Thalli.mp3 */,
+				AABEED8021D7C06E00C99A86 /* Reddy Ikkada Soodu.mp3 */,
+				AABEED5A21D7B4FB00C99A86 /* Aravindha-Sametha-2018-CD-Cover-Front-Poster-Wallpapers.jpg */,
+				AABEED5D21D7B4FC00C99A86 /* next.png */,
+				AABEED5821D7B4FA00C99A86 /* pause.png */,
+				AABEED5921D7B4FA00C99A86 /* play.png */,
+				AABEED5B21D7B4FB00C99A86 /* previous.png */,
+				AABEED5C21D7B4FB00C99A86 /* stop.png */,
+				AABEED6B21D7B62800C99A86 /* board.png */,
+				AABEED6A21D7B62700C99A86 /* cross.png */,
+				AABEED6921D7B62700C99A86 /* nought.png */,
+				AABEED6821D7B62700C99A86 /* nought1.png */,
+				AABEED7C21D7B9BA00C99A86 /* bg_weather.jpg */,
 				AABEED4921D7B01100C99A86 /* Assets.xcassets */,
 				AABEED4B21D7B01100C99A86 /* LaunchScreen.storyboard */,
 				AABEED4E21D7B01100C99A86 /* Info.plist */,
@@ -122,9 +197,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AABEED6F21D7B62800C99A86 /* board.png in Resources */,
+				AABEED6021D7B4FC00C99A86 /* Aravindha-Sametha-2018-CD-Cover-Front-Poster-Wallpapers.jpg in Resources */,
+				AABEED6221D7B4FC00C99A86 /* stop.png in Resources */,
+				AABEED6D21D7B62800C99A86 /* nought.png in Resources */,
+				AABEED6321D7B4FC00C99A86 /* next.png in Resources */,
 				AABEED4D21D7B01100C99A86 /* LaunchScreen.storyboard in Resources */,
+				AABEED5F21D7B4FC00C99A86 /* play.png in Resources */,
+				AABEED6521D7B50900C99A86 /* Yeda Poyinado.mp3 in Resources */,
+				AABEED6E21D7B62800C99A86 /* cross.png in Resources */,
+				AABEED6121D7B4FC00C99A86 /* previous.png in Resources */,
+				AABEED8321D7C06F00C99A86 /* Reddamma Thalli.mp3 in Resources */,
+				AABEED8421D7C06F00C99A86 /* Anaganaganaga.mp3 in Resources */,
+				AABEED7D21D7B9BA00C99A86 /* bg_weather.jpg in Resources */,
+				AABEED8521D7C06F00C99A86 /* Reddy Ikkada Soodu.mp3 in Resources */,
 				AABEED4A21D7B01100C99A86 /* Assets.xcassets in Resources */,
+				AABEED6C21D7B62800C99A86 /* nought1.png in Resources */,
+				AABEED5E21D7B4FC00C99A86 /* pause.png in Resources */,
 				AABEED4821D7B01000C99A86 /* Main.storyboard in Resources */,
+				AABEED8721D7C06F00C99A86 /* Peniviti.mp3 in Resources */,
+				AABEED8621D7C06F00C99A86 /* Reddamma Thalli (Female).mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +227,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AABEED4521D7B01000C99A86 /* ViewController.swift in Sources */,
+				AABEED7321D7B6B200C99A86 /* CurrencyConvertor.swift in Sources */,
+				AABEED7A21D7B7E300C99A86 /* HourlyForcastVC.swift in Sources */,
+				AABEED5721D7B47600C99A86 /* MusicVC.swift in Sources */,
+				AABEED7921D7B7E300C99A86 /* CustomTableViewCell.swift in Sources */,
+				AABEED5521D7B0B900C99A86 /* CalculatorVC.swift in Sources */,
+				AABEED7B21D7B7E300C99A86 /* Parameters.swift in Sources */,
+				AABEED6721D7B5BA00C99A86 /* TicTacVC.swift in Sources */,
+				AABEED7521D7B7A600C99A86 /* WeatherVC.swift in Sources */,
+				AABEED7121D7B67F00C99A86 /* ApiCommunication.swift in Sources */,
 				AABEED4321D7B01000C99A86 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
